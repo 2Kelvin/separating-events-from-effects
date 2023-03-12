@@ -1,0 +1,17 @@
+{
+  "name": "separating-events-from-effects",
+  "version": "1.0.0",
+  "description": "Events rerun after they've been triggered again by the user. Whereas, effects rerun when a dependency variable they rely on changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "thewatcher": "babel --watch src --out-dir dist --presets babel-preset-react-app/prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "babel-preset-react-app": "^10.0.1"
+  }
+}
